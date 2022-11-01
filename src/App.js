@@ -4,20 +4,18 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 
 function App() {
   return (
     <>
-    <BrowserRouter basename="my-portfolio">
     <Routes>
-      <Route  path="/my-portfolio" element={<Home/>} />
+      <Route  path="/" element={<Home/>} />
       <Route  path="/project" element={<Project/>} />
       <Route  path="/about" element={<About/>} />
       <Route  path="/contact" element={<Contact/>} />
     </Routes>
-    </BrowserRouter>
     </>
     
   );
