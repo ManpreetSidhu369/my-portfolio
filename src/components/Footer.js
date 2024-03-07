@@ -13,8 +13,8 @@ const Footer = () => {
                         <FaHome size={20} style=
                             {{ color: "#fff", marginRight: "2rem" }} />
                         <div>
-                            <p>306-357 Tu Pelo Avenue</p>
-                            <p>Winnipeg, Manitoba</p>
+                            <p>36 Red Sky Common NE</p>
+                            <p>Calgary Alberta</p>
                         </div>
                     </div>
                     <div className="phone">
